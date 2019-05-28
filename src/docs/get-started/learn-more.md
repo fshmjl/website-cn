@@ -1,38 +1,38 @@
 ---
-title: Learn more
+title: 了解更多
 description: More resources to help you learn Flutter.
 prev:
-  title: Write your first Flutter app
+  title: 编写您的第一个 Flutter App, 第1部分
   path: /docs/get-started/codelab
 ---
 
-Learn more about the Flutter framework from the following pages:
+从以下页面了解有关Flutter框架的更多信息：
 
-## Flutter basics
+## Flutter 的基础知识
 
-* [Introduction to widgets](/docs/development/ui/widgets-intro)
-* [Building layouts in Flutter](/docs/development/ui/layout/tutorial) tutorial
-* [Add interactivity](/docs/development/ui/interactive) tutorial
+* [widgets简介](/docs/development/ui/widgets-intro)
+* [Flutter布局](/docs/development/ui/layout/tutorial) 教程
+* [添加交互](/docs/development/ui/interactive) 教程
 
-## Apply your existing knowledge
+## 应用您现有的知识
 
-* [Flutter for Android developers](/docs/get-started/flutter-for/android-devs)
-* [From Java to Dart]({{site.codelabs}}/codelabs/from-java-to-dart) codelab
-* [Flutter for iOS developers](/docs/get-started/flutter-for/ios-devs)
-* [Flutter for React Native developers](/docs/get-started/flutter-for/react-native-devs)
-* [Flutter for web developers](/docs/get-started/flutter-for/web-devs)
-* [Flutter for Xamarin.Forms developers](/docs/get-started/flutter-for/xamarin-forms-devs)
+* [Flutter for Android 开发者](/docs/get-started/flutter-for/android-devs)
+* [从 Java to Dart]({{site.codelabs}}/codelabs/from-java-to-dart) codelab
+* [Flutter for iOS 开发者](/docs/get-started/flutter-for/ios-devs)
+* [Flutter for React Native 开发者](/docs/get-started/flutter-for/react-native-devs)
+* [Flutter for 开发者](/docs/get-started/flutter-for/web-devs)
+* [Flutter for Xamarin.Forms 开发者](/docs/get-started/flutter-for/xamarin-forms-devs)
 
-## Other resources
+## 其他资源
 
-* [Flutter samples]({{site.github}}/flutter/samples/blob/master/INDEX.md)
+* [Flutter 样例]({{site.github}}/flutter/samples/blob/master/INDEX.md)
 * [Flutter cookbook](/docs/cookbook)
-* [Bootstrap into Dart: learn more about the language](/docs/resources/bootstrap-into-dart)
-* [Flutter API Docs]({{site.api}})
-* [Udacity online Flutter training](https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905)
+* [开始使用 Dart： 学习更多关于Dart语言的知识](/docs/resources/bootstrap-into-dart)
+* [Flutter API 文档]({{site.api}})
+* [Udacity 在线 Flutter 教学](https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905)
 
-Reach out to us at our [mailing list][]. We'd love to hear from you!
+请通过[我们(google)的邮件列表][mailinglist]与我们联系。我们很乐意听取您的意见
 
 Happy Fluttering!
 
-[mailing list]: mailto:{{site.email}}
+[mailinglist]: mailto:flutter-dev@googlegroups.co
