@@ -1,35 +1,29 @@
 <div class="tab-pane" id="vscode" role="tabpanel" aria-labelledby="vscode-tab" markdown="1">
 
-## Create the app
+## 创建应用
 
-  1. Invoke **View > Command Palette**.
-  1. Type "flutter", and select the **Flutter: New Project**.
-  1. Enter a project name, such as `myapp`, and press **Enter**.
-  1. Create or select the parent directory for the new project folder.
-  1. Wait for project creation to complete and the `main.dart`
-     file to appear.
+  1. 调用 **View>Command Palette...**.
+  1. 输入 'flutter', 然后选择 **'Flutter: New Project'**.
+  1. 输入 Project 名称 (如`myapp`), 然后按回车键.
+  1. 创建或选择新项目的文件夹.
+  1. 等待项目创建继续，并显示main.dart文件.
 
-The above commands create a Flutter project directory called `myapp` that
-contains a simple demo app that uses [Material Components][].
+上述命令创建一个使用[Material 组件](https://material.io/design/)，项目名为myapp的Flutter项目.
 
 {% include_relative _main-code-note.md  %}
 
-## Run the app
+## 运行应用程序
 
- 1. Locate the VS Code status bar (the blue bar at the bottom of the
-    window):<br> ![status bar][]{:.mw-100}
- 1. Select a device from the **Device Selector** area.
-    For details, see [Quickly switching between Flutter devices][].
-    - If no device is available and you want to use a device simulator,
-      click **No Devices** and launch a simulator.
-    - To setup a real device, follow the device-specific instructions on the
-      [Install][] page for your OS.
- 1. Invoke **Debug > Start Debugging** or press <kbd>F5</kbd>.
- 1. Wait for the app to launch &mdash; progress is printed
-    in the **Debug Console** view.
+ 1. 找到VS Code状态栏（窗口底部的蓝色栏）:<br> ![status bar][]{:.mw-100}
+ 1. 从**Device Selector**区域中选择一个设备.
+    有关详细信息,请参阅 [在Flutter设备之间快速切换](https://dartcode.org/docs/quickly-switching-between-flutter-devices/).
+    - 如果没有可用的设备单击**No Devices**并启动模拟器
+    - 如要设置真机, 参照您对应操作系统的[安装](/docs/get-started/install)页面特定说明进行操作.
+ 1. 按 <kbd>F5</kbd>键或调用**Debug>Start Debugging**.
+ 1. 等待应用程序启动 &mdash; **Debug Console**中会打印启动进度.
 
 {% capture save_changes -%}
-  : invoke **Save All**, or click **Hot Reload**
+  : 调用 **Save All**, 或点击 **Hot Reload**
   <i class="material-icons align-bottom">offline_bolt</i>.
   {% comment %} Or, as an alternative:
     {% asset 'get-started/hot-reload-button.png' alt='looks like a lightning bolt' %}.

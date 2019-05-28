@@ -1,7 +1,7 @@
 ---
-title: Test drive
+title: 体验
 prev:
-  title: Set up an editor
+  title: 配置编辑器
   path: /docs/get-started/editor
 next:
   title: Write your first Flutter app
@@ -9,10 +9,9 @@ next:
 toc: false
 ---
 
-This page describes how to create a new Flutter app from templates, run it, and experience "hot reload" after you make changes to the app.
+本页介绍如何体验Flutter: 从我们的模板创建一个新的Flutter应用程序，运行它，并学习如何使用Hot Reload进行更新重载
 
-Select your development tool of choice for writing, building, and running
-Flutter apps.
+选择用于编写，构建和运行Flutter应用程序的开发工具.
 
 {% comment %} Nav tabs {% endcomment -%}
 <ul class="nav nav-tabs" id="editor-setup" role="tablist">
@@ -34,6 +33,6 @@ Flutter apps.
   {% include_relative _terminal.md %}
 </div>
 
-## Next step
+## 下一步
 
-You'll next learn some core Flutter concepts by creating a small app.
+接下来, 您将通过创建一个小应用程序来学习一些核心的Flutter概念.

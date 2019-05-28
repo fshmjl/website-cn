@@ -1,31 +1,28 @@
 <div class="tab-pane active" id="androidstudio" role="tabpanel" aria-labelledby="androidstudio-tab" markdown="1">
 
-## Create the app {#create-app}
+## 创建应用  {#create-app}
 
- 1. Select **File > New Flutter Project**.
- 1. Select **Flutter application** as the project type, and press **Next**.
- 1. Make sure that the **Flutter SDK Path** text field specifies the
-    location of the SDK. Install the SDK if you haven't yet done so.
- 1. Enter a project name (for example, `myapp`), and press **Next**.
- 1. Click **Finish**.
- 1. Wait for Android Studio to install the SDK, and create the project.
+ 1. 选择 **File>New Flutter Project**.
+ 1. 选择 **Flutter application** 作为 project 类型, 然后点击 **Next**.
+ 1. 确保 **Flutter SDK Path** 指向SDK的位置. 如果尚未安装SDK，请安装它.
+ 1. 输入项目名称 (如 `myapp`), 然后点击 **Next**.
+ 1. 点击 **Finish**.
+ 1. 等待Android Studio安装SDK并创建项目.
 
-The above commands create a Flutter project directory called `myapp` that
-contains a simple demo app that uses [Material Components][].
+上述命令创建一个使用[Material 组件](https://material.io/design/),项目名为myapp的Flutter项目.
 
 {% include_relative _main-code-note.md  %}
 
-## Run the app
+## 运行应用程序
 
- 1. Locate the main Android Studio toolbar:<br>
+ 1. 定位到Android Studio 工具栏:<br>
     ![Main IntelliJ toolbar][]{:.mw-100}
- 1. In the **target selector**, select an Android device for running the app.
-    If none are listed as available, select **Tools> Android > AVD Manager** and
-    create one there. For details, see [Managing AVDs][].
- 1. Click the run icon in the toolbar, or invoke the menu item **Run > Run**.
+ 1. 在 **target selector** 中, 选择一个运行该应用的Android设备.
+    如果没有列出可用，请选择 **Tools>Android>AVD Manager** 并在那里创建一个. 有关详情，请参阅 [Managing AVDs][].
+ 1. 在工具栏中点击 **Run图标**, 或者调用菜单项 **Run > Run**.
 
 {% capture save_changes -%}
-  : invoke **Save All**, or click **Hot Reload**
+  : 调用 **Save All**, 或点击 **Hot Reload**
   <i class="material-icons align-bottom">offline_bolt</i>.
   {% comment %} Or, as an alternative:
     {% asset 'get-started/hot-reload-button.png' alt='looks like a lightning bolt' %}.
