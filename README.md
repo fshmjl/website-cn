@@ -14,8 +14,6 @@
 
 2. 网站框架的汉化，这部分主要集中在src目录下的`_includes`和`_layouts`目录下的html文件中
 
-
-
 ## 本地运行网站
 
 本网站是一个纯静态网站，使用jekyll构建，如果您对网站目录有所疑惑，建议可以了解一下jekyll。
@@ -87,8 +85,8 @@ if you already have the required packages installed.
       **Note**: Unless you're editing files under `site-shared`, you can safely
       ignore `ERROR: directory is already being watched` messages.
       For details, see [#1363](https://github.com/flutter/website/issues/1363).
-      
-      **Note**: The first time you run either one of these commands,
+
+      **Note**: 第一次启动jekyll会生成网站，需要等待10-20秒，之后就可以在本地访问了。The first time you run either one of these commands,
       jekyll takes anywhere between 10 - 20 seconds to generate static
       content inside the `_sites` directory. If you try to verify the
       site locally but aren't able to see the content right away,
