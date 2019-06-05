@@ -1,35 +1,35 @@
-- title: Get started
+- title: 起步
   children:
-    - title: 1. Install
+    - title: 1. 安装
       permalink: /docs/get-started/install
-    - title: 2. Set up an editor
+    - title: 2. 配置编辑器
       permalink: /docs/get-started/editor
-    - title: 3. Test drive
+    - title: 3. Flutter初体验
       permalink: /docs/get-started/test-drive
-    - title: 4. Write your first app
+    - title: 4. 编写第一个Flutter应用
       permalink: /docs/get-started/codelab
-    - title: 5. Learn more
+    - title: 5. 了解更多
       permalink: /docs/get-started/learn-more
     - divider
-    - title: From another platform?
+    - title: 从其它平台迁移到Flutter
       expanded: true
       children:
-        - title: Flutter for Android devs
+        - title: Flutter for Android 开发者
           permalink: /docs/get-started/flutter-for/android-devs
-        - title: Flutter for iOS devs
+        - title: Flutter for iOS 开发者
           permalink: /docs/get-started/flutter-for/ios-devs
-        - title: Flutter for React Native devs
+        - title: Flutter for React Native 开发者
           permalink: /docs/get-started/flutter-for/react-native-devs
-        - title: Flutter for web devs
+        - title: Flutter for web 开发者
           permalink: /docs/get-started/flutter-for/web-devs
-        - title: Flutter for Xamarin.Forms devs
+        - title: Flutter for Xamarin.Forms 开发者
           permalink: /docs/get-started/flutter-for/xamarin-forms-devs
-        - title: Introduction to declarative UI
+        - title: 声明式UI简介
           permalink: /docs/get-started/flutter-for/declarative
-    - title: "Dart language overview"
+    - title: "Dart语言概览"
       permalink: https://www.dartlang.org/guides/language
 
-- title: Samples & tutorials
+- title: 示例 & 教程
   children:
     - title: Sample apps on GitHub
       permalink: https://github.com/flutter/samples/blob/master/INDEX.md
@@ -40,100 +40,100 @@
     - title: Tutorials
       permalink: /docs/reference/tutorials
 
-- title: Development
+- title: 开发
   expanded: true
   permalink: /docs/development
   children:
-    - title: User interface
+    - title: UI
       permalink: /docs/development/ui
       children:
-        - title: Introduction to Widgets
+        - title: Widgets简介
           permalink: /docs/development/ui/widgets-intro
-        - title: Building layouts
+        - title: 构建布局
           permalink: /docs/development/ui/layout
           children:
-            - title: Layouts in Flutter
+            - title: Flutter中的布局
               permalink: /docs/development/ui/layout
               match-page-url-exactly: true
-            - title: Tutorial
+            - title: 教程
               permalink: /docs/development/ui/layout/tutorial
             - title: Box constraints
               permalink: /docs/development/ui/layout/box-constraints
-        - title: Adding interactivity
+        - title: 添加交互
           permalink: /docs/development/ui/interactive
-        - title: Assets and images
+        - title: 资源和图片
           permalink: /docs/development/ui/assets-and-images
-        - title: Navigation & routing
+        - title: 导航和路由
           permalink: /docs/development/ui/navigation
-        - title: Animations
+        - title: 动画
           permalink: /docs/development/ui/animations
           children:
-            - title: Introduction
+            - title: 简介
               permalink: /docs/development/ui/animations
               match-page-url-exactly: true
-            - title: Overview
+            - title: 概览
               permalink: /docs/development/ui/animations/overview
-            - title: Tutorial
+            - title: 教程
               permalink: /docs/development/ui/animations/tutorial
-            - title: Hero animations
+            - title: Hero动画
               permalink: /docs/development/ui/animations/hero-animations
-            - title: Staggered animations
+            - title: 交错动画
               permalink: /docs/development/ui/animations/staggered-animations
-        - title: Advanced UI
+        - title: UI 进阶
           permalink: /docs/development/ui/advanced
           children:
             - title: Focus handling system # Where did this go?
             - title: Slivers
               permalink: /docs/development/ui/advanced/slivers
-            - title: Gestures
+            - title: 手势
               permalink: /docs/development/ui/advanced/gestures
-        - title: Platform-specific theming
-        - title: Widget catalog
+        - title: 平台特定主题
+        - title: Widget目录
           permalink: /docs/development/ui/widgets
     - title: Data & backend
       permalink: /docs/development/data-and-backend
       children:
-        - title: State management
+        - title: 状态管理
           permalink: /docs/development/data-and-backend/state-mgmt
           children:
-            - title: Introduction
+            - title: 简介
               permalink: /docs/development/data-and-backend/state-mgmt/intro
             - title: Think declaratively
               permalink: /docs/development/data-and-backend/state-mgmt/declarative
             - title: Ephemeral vs app state
               permalink: /docs/development/data-and-backend/state-mgmt/ephemeral-vs-app
-            - title: Simple app state management
+            - title: 简单的应用状态管理
               permalink: /docs/development/data-and-backend/state-mgmt/simple
             - title: Options
               permalink: /docs/development/data-and-backend/state-mgmt/options
-        - title: JSON and serialization
+        - title: JSON和序列化
           permalink: /docs/development/data-and-backend/json
         - title: Back-end services
         - title: Firebase
           permalink: /docs/development/data-and-backend/firebase
-    - title: Accessibility & internationalization # TODO: use: Accessibility & localization
+    - title: 辅助功能 & 国际化 # TODO: use: Accessibility & localization
       permalink: /docs/development/accessibility-and-localization
       children:
-        - title: Accessibility
+        - title: 辅助功能
           permalink: /docs/development/accessibility-and-localization/accessibility
-        - title: Internationalization
+        - title: 国际化
           permalink: /docs/development/accessibility-and-localization/internationalization
-    - title: Platform integration
+    - title: 平台功能集成
       permalink: /docs/development/platform-integration
       children:
         - title: Embedding Flutter views in non-Flutter apps
-        - title: Writing platform-specific code
+        - title: 编写平台特定的代码
           permalink: /docs/development/platform-integration/platform-channels
-    - title: Packages & plugins
+    - title: 包和插件
       permalink: /docs/development/packages-and-plugins
       children:
-        - title: Using packages
+        - title: 使用包
           permalink: /docs/development/packages-and-plugins/using-packages
-        - title: Developing packages & plugins
+        - title: 开发包和插件
           permalink: /docs/development/packages-and-plugins/developing-packages
         - title: Background processes
           permalink: /docs/development/packages-and-plugins/background-processes
-        - title: Package site
+        - title: 包仓库
           permalink: https://pub.dev/flutter
     - title: Tools & techniques
       permalink: /docs/development/tools
@@ -158,26 +158,26 @@
         - title: Flutter inspector
           permalink: https://flutter.github.io/devtools/inspector
 
-- title: Testing & optimization
+- title: 测试 & 优化
   permalink: /docs/testing
   children:
-    - title: Debugging
+    - title: 调试
       permalink: /docs/testing/debugging
-    - title: Using OEM debuggers
+    - title: 使用OEM调试器
       permalink: /docs/testing/oem-debuggers
-    - title: Flutter's build modes
+    - title: Flutter的构建模型
       permalink: /docs/testing/build-modes
-    - title: Testing
+    - title: 测试
       permalink: /docs/testing
       match-page-url-exactly: true
-    - title: Performance best practices
+    - title: 性能最佳实践
       permalink: /docs/testing/best-practices
     - title: Performance profiling
       permalink: /docs/testing/ui-performance
     # We don't have this page yet.
     # - title: Making your compiled app smaller
 
-- title: Deployment
+- title: 构建和发布
   children:
     - title: Creating flavors for Flutter
       permalink:  /docs/deployment/flavors
@@ -188,7 +188,7 @@
     - title: Continuous deployment with fastlane
       permalink: /docs/deployment/fastlane-cd
 
-- title: Resources
+- title: 资源
   children:
     - title: Dart resources
       permalink: /docs/resources/bootstrap-into-dart
@@ -206,7 +206,7 @@
     - title: FAQ
       permalink: /docs/resources/faq
 
-- title: Reference
+- title: 参考
   expanded: true
   children:
     - title: Widget index

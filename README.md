@@ -1,24 +1,26 @@
-# [Flutter][]'s website ![Flutter logo][]
+# Flutter中文官网翻译![Flutter logo][]
 
-[![Build Status][]][Repo on Travis]
+本项目为**新版**Flutter官网中文翻译项目；如您想加入并一起翻译，请加微信Demons-du，然后会把你拉入官网翻译群。
 
-## Issues, bugs, and requests
+## 需要翻译的内容
 
-We welcome contributions and feedback on our website!
-Please file a request in our
-[issue tracker](https://github.com/flutter/website/issues/new)
-and we'll take a look.
+1. 翻译src/docs目录下所有英文html和md文档；
 
-For simple changes (such as to CSS and text), you probably don't need to
-build this site.  Often you can make changes using the GitHub UI.
+   > 在您准备翻译一篇文档之前，请先对比旧版官网翻译文档，共同的部分可以直接拷贝。
+   >
+   > 旧版翻译线上地址：https://flutterchina.club/docs/
+   >
+   > 旧版翻译Github地址：https://github.com/flutterchina/website
 
-If you want/need to build, read on.
+2. 网站框架的汉化，这部分主要集中在src目录下的`_includes`和`_layouts`目录下的html文件中
 
-## Before you build this site
 
-### 1. Get the prerequisites
 
-Install the following tools if you don't have them already.
+## 本地运行网站
+
+本网站是一个纯静态网站，使用jekyll构建，如果您对网站目录有所疑惑，建议可以了解一下jekyll。
+
+### 1. 运行网站前需先安装下面依赖
 
 - **bash**, the Bourne shell. These instructions assume you're using `bash` -- setup might not work if you use another shell.
 - **[nvm][]**, the Node Version Manager.
@@ -30,7 +32,7 @@ Install the following tools if you don't have them already.
 carefully. In particular, configure your shell/environment so
 that the tools are available in every terminal/command window you create.
 
-### 2. Clone this repo _and_ its submodules
+### 2.克隆本项目及相关submodules
 
 > NOTE: This repo has git _submodules_, which affects how you clone it.
 
@@ -51,12 +53,12 @@ submodule-cloning techniques:
 > git pull; git submodule update --init --remote
 > ```
 
-### 3. Run installation scripts
+### 3. 运行安装脚本
 
 > NOTE: It is safe to (re-)run all of the commands and scripts given below even
 if you already have the required packages installed.
 
-**Open a bash terminal/command window** and execute the following commands:
+依次运行如下命令:
 
 1. <code>cd <i>\<path-to-this-repo></i></code> &nbsp;&nbsp;# change to
    **root of this repo**
@@ -72,12 +74,11 @@ if you already have the required packages installed.
 >   this repo, **repeat steps 1 and 2** above.
 > - If you upgrade Dart then rerun all of the steps above.
 
-## Developing
+## 运行网站
 
- 1. Create a branch.
- 1. Make your changes.
  1. Test your changes by serving the site locally.
     Run either **one** of these commands:
+
     - `./tool/serve.sh` (can also run via `npm run clean`)
 
     or
@@ -110,45 +111,6 @@ if you already have the required packages installed.
 > `npm run start`
 > OR 
 > `./tool/serve.sh`
-
-## Deploy to a staging site
-
-You can deploy your local edits to a personal staging site as follows
-(steps 1 and 2 need to be done only once):
-
- 1. In the [Firebase Console](https://console.firebase.google.com),
-    create your own Firebase project (e.g. 'mit-flutter-staging')
-
- 1. Tell Firebase about that project with the firebase
-    [`use` command](https://firebase.googleblog.com/2016/07/deploy-to-multiple-environments-with.html):
-
-      ```console
-      $ npx firebase use --add
-      ? Which project do you want to add? <select the project you created>
-      ? What alias do you want to use for this project? (e.g. staging) my-foo
-      ```
-
- 1. Tell Firebase that you want to deploy to staging:
-
-    ```console
-    $ npx firebase use my-foo
-    Now using alias staging (<your project name>)
-    ```
-
-Alternatively, you can skip the previous steps and just use the deploy script:
-
-```console
-$ ./tool/shared/deploy.sh --local my-foo
-
-=== Deploying to '<your project name>'...
-
-i  deploying hosting
-i  hosting: preparing _site directory for upload...
-✔  hosting: 213 files uploaded successfully
-i  starting release process (may take several minutes)...
-
-✔  Deploy complete!
-```
 
 ## Deploying to the official site
 
